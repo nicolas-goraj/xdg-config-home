@@ -1,5 +1,26 @@
 # xdg-config-home
 
+## The keymap
+
+### Neovim
+
+> [!IMPORTANT]
+> The _leader_ key is configured on `Space` and will be noted `Leader`
+
+|Shortcut           | Current mode                     |  Action                              |
+| :---------------- | :--------------------------------| :----------------------------------- |
+| `Esc`             | INSERT, COMMAND, REPLACE, VISUAL | Go back to NORMAL mode               |
+| `:`               | NORMAL                           | Enter COMMAND mode                   |
+| `i`               | NORMAL                           | Enter INSERT mode                    |
+| `R`               | NORMAL                           | Enter REPLACE mode                   |
+| `v`               | NORMAL                           | Enter VISUAL mode                    |
+| `h`,`j`,`k`,`l`   | NORMAL, VISUAL                   | Move cursor (left, down, up, right)  |
+
+|Shortcut           | Current mode                     |  Action                              |
+| :---------------- | :--------------------------------| :----------------------------------- |
+| `Esc`             | INSERT, COMMAND, REPLACE, VISUAL | Go back to NORMAL mode               |
+
+
 ## This is stable for work
 
 Neovim is configured mostly with the [Lazy Plugin Manager](https://github.com/folke/lazy.nvim),

@@ -9,5 +9,5 @@ term = "xterm-256color"
 decorations = "None"
 startup_mode = "Fullscreen"
 [font]
-size = 20
+size = 16
 normal = { family = "JetBrainsMono NF" }

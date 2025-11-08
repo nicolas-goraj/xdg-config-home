@@ -9,6 +9,14 @@ return {
         require('mini.files').setup()
         require('mini.pairs').setup()
 
+        local hipatterns = require 'mini.hipatterns'
+        hipatterns.setup {
+            highlighters = {
+                -- Highlight hex color strings (`#rrggbb`) using that color
+                hex_color = hipatterns.gen_highlighter.hex_color(),
+            },
+        }
+
         vim.keymap.set('n', '<leader>e', function()
             MiniFiles.open()
         end, { desc = '[E]xplore filesystem' })
